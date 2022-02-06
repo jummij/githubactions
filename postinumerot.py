@@ -7,7 +7,7 @@ dictlist = data.items()
 
 
 city = input("Kirjoita postitoimipaikka: ")
-city = city.upper()
+city = city.upper().replace(' ', '')
 
 #postal_codes = []
 
