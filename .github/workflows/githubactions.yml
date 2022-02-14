@@ -24,9 +24,7 @@ jobs:
 
       - name: Test pytest and coverage 
         run: |
-          coverage run -m pytest -s
-        then: |
-          Helsinki
+          coverage run -m pytest 
 
       - name: coverage report
         run: |
