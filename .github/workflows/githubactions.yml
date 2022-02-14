@@ -25,7 +25,6 @@ jobs:
       - name: Test pytest and coverage 'helsinki'
         run: |
           coverage run -m pytest -s
-      - name: Helsinki input
         run: |
           Helsinki
       - name: coverage report
