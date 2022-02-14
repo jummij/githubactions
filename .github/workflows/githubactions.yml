@@ -24,3 +24,10 @@ jobs:
       - name: Test with pytest
         run: |
           pytest
+      - name: Test pytest and coverage 'helsinki'
+        run: |
+          coverage run -m pytest -s
+          helsinki
+      - name: coverage report
+        run: |
+          coverage report -m
